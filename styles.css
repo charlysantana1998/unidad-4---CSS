@@ -1,0 +1,105 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span, p, h1, h2, h3, h4 {
+    color: rgb(151, 151, 151);
+}
+
+body {
+    padding: 1em;
+    background-color: rgb(33, 33, 33);
+}
+
+.Header {
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(65, 65, 65);
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.ItemMenu {
+    font-weight: 100;
+}
+
+.ItemMenu:hover {
+    color: rgb(255, 255, 255);
+}
+
+.TituloHome {
+    font-size: 2.3em;
+    font-weight: 700;
+}
+
+.Menu {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ContenedorTituloHome {
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0px 1em 0px;
+}
+
+.SeccionDeArticulos {
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    margin-bottom: 1em;
+
+}
+
+.Articulo {
+    height: fit-content;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    border-radius: 1em;
+    background-color:  rgb(65, 65, 65);
+
+}
+
+.ContenedorParrafoArticulo {
+    height: 8em;
+    width: 8em;
+    padding: 1em;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(206, 206, 206);
+    border-radius: 0.5em;
+}
+
+footer {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(44, 44, 44);
+    padding: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    height: 3em;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    gap: 1em;
+}
+
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(98, 98, 98);
+}
